@@ -1,0 +1,27 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "JS本地调试-node环境",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${fileDirname}/${fileBasenameNoExtension}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "浏览器v8纯净环境",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "runtimeExecutable": "node-inspect"
+        },
+    ]
+}

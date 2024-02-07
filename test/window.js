@@ -62,6 +62,11 @@ location.reload = function reload() {
 }
 location = vmProxy(location)
 debugger;;
+
+
+
+
+
 // window.document = {
 //     referrer: '',
 //     createElement: function (tagName) {
