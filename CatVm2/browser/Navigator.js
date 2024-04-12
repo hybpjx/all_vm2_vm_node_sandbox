@@ -10,21 +10,8 @@ Object.defineProperties(Navigator.prototype, {
     }
 });
 navigator = {
-    // platform: 'Win32',
-    // userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36',
-    // maxTouchPoints: 0,
-    // onLine: true,
-    // mimeTypes: [{
-    //     suffixes: "pdf",
-    //     type: "application/pdf"
-    // }],
-    //
-    // plugins: [{
-    //     "0": {},
-    //     "1": {}
-    // }]
 
-};
+}
 navigator.__proto__ = Navigator.prototype;
 ////////// 浏览器代码自动生成部分
 

@@ -31,7 +31,6 @@ function GetCode() {
     // 引入用户自定义环境
     code += "debugger;\r\n";
     return code;
-
 }
 
 module.exports = {

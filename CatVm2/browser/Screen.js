@@ -11,15 +11,28 @@ Object.defineProperties(Screen.prototype, {
         configurable: true
     }
 });
-screen = {};
+screen = {
+    availHeight: 1040,
+    availLeft: 0,
+    availTopL: 0,
+    availWidth: 1920,
+    colorDepth: 24,
+    height: 1080,
+    isExtended: true,
+    orientation: {
+        type: "landscape-primary"
+    },
+    pixelDepth: 24,
+    width: 1920
+}
 screen.__proto__ = Screen.prototype;
 ////////// 浏览器代码自动生成部分
-Screen.prototype.width = 1494;
-Screen.prototype.height = 934;
-Screen.prototype.availWidth = 1494;
-Screen.prototype.availHeight = 934;
-Screen.prototype.colorDepth = 24;
-Screen.prototype.pixelDepth = 24;
+// Screen.prototype.width = 1494;
+// Screen.prototype.height = 934;
+// Screen.prototype.availWidth = 1494;
+// Screen.prototype.availHeight = 934;
+// Screen.prototype.colorDepth = 24;
+// Screen.prototype.pixelDepth = 24;
 ////////
 // 浏览器中screen是全局的，因此我们也需要定义一个screen
 

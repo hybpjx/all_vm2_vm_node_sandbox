@@ -3,5 +3,9 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/HaHaVM/HaHaVM" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NodeSandbox" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/boda_jsEnv" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/qxVm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sdenv" vcs="Git" />
   </component>
 </project>
