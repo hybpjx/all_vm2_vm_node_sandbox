@@ -4,7 +4,7 @@ const browser = require('../../browser/');
 const { jsdomFromUrl } = require('../../utils/jsdom');
 
 // 从命令行参数获取baseUrl和jspPath，如果没有提供，则为默认值
-const baseUrl = process.argv[2] || "https://www.ems.com.cn";
+const baseUrl = process.argv[2] || "https://cq.cbss.10010.com";
 const xhrUrl = process.argv[3] || "";
 
 async function loadPages() {
@@ -13,7 +13,7 @@ async function loadPages() {
     });
 
     const dom = await jsdomer(`${baseUrl}`);
-    window = dom.window
+    window = dom.window;
 
 
     // 重写XMLHttpRequest.prototype.open方法
